@@ -24,13 +24,13 @@ This project demonstrates a simple front-end/back-end system for uploading multi
 ## Setup and Usage
 
 1. **Clone the Repository:**
-   ```bash
-   git clone https://your-repository-url.git
-   ```
+```bash
+git clone https://github.com/salimov333/multipart-form-data-uploader.git
+```
 2. **Install Dependencies:**
 
 ```bash
-cd project-root
+cd multipart-form-data-uploader
 npm install
 ```
 
