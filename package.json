@@ -1,0 +1,22 @@
+{
+  "name": "multipart-form-data-uploader",
+  "version": "1.0.0",
+  "description": "This project demonstrates a simple front-end/back-end system for uploading multipart form data containing a user profile, avatar image, and a gallery of images.",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "https://github.com/salimov333",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}

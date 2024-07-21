@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multipart Form Data Uploader</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <h1>Multipart Form Data Uploader</h1>
+    <div class="wrapper">
+      <form id="profile_form" enctype="multipart/form-data">
+        <div>
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name" required />
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" required />
+        </div>
+        <div>
+          <label for="country">Country</label>
+          <input type="text" name="country" id="country" required />
+        </div>
+        <div>
+          <label for="bio">Bio</label>
+          <textarea
+            name="bio"
+            id="bio"
+            placeholder="Tell us about you..."
+            required
+            rows="4"
+          ></textarea>
+        </div>
+        <div>
+          <label for="avatar">Avatar</label>
+          <input
+            type="file"
+            name="avatar"
+            id="avatar"
+            accept=".jpg, .png, .webp, .jpeg, .gif"
+          />
+        </div>
+        <div>
+          <label for="gallery">Gallery</label>
+          <input
+            type="file"
+            name="gallery"
+            id="gallery"
+            accept=".jpg, .png, .webp, .jpeg, .gif"
+            multiple
+          />
+        </div>
+        <div>
+          <button type="submit" id="submit">Submit</button>
+        </div>
+      </form>
+      <section id="profile_Section"></section>
+    </div>
+  </body>
+</html>
