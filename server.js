@@ -34,5 +34,5 @@ function bufferToURI(bufferObject, mimetype) {
 }
 
 app.listen(port, () => {
-    console.log(`Serer listening on port ${port} at ${'http://localhost:3000'}`)
+    console.log(`Server listening on port ${port} at ${'http://localhost:3000'}`)
 })
